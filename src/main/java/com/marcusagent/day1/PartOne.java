@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Main {
+public class PartOne {
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File("src/main/resources/input1.txt");
         Scanner scanner = new Scanner(file);
@@ -29,6 +29,7 @@ public class Main {
             for(int i=line.length()-1; i>=0; i--){
                 if(containsInteger(line,i)) {
                     secondInteger = Character.getNumericValue(line.charAt(i));
+                    break;
                 }
             }
 
