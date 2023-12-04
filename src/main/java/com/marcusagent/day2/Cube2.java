@@ -52,7 +52,6 @@ public class Cube2 {
             bag.put("red", 0);
             bag.put("green", 0);
             bag.put("blue", 0);
-            System.out.println("sum: " + sum);
 
         }
         System.out.println(sum);
